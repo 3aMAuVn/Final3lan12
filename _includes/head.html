@@ -7354,83 +7354,6 @@ body.page-vi .hero-snap-grid.hero-snap-grid-split{ grid-template-columns: minmax
 }
 
 
-/* === 2026-03-21 final width repair + VI maths club fee parity === */
-:root{
-  --site-shell-max-final: 1280px;
-  --site-shell-gutter-final: clamp(16px, 2.4vw, 28px);
-}
-html, body{
-  max-width: 100%;
-  overflow-x: clip;
-}
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12){
-  margin: 0 !important;
-  padding: 0 !important;
-}
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .container,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .topbar .container,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .footer .container,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .page-hero .container,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) main > .container,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .section > .container{
-  width: min(var(--site-shell-max-final), calc(100vw - (var(--site-shell-gutter-final) * 2))) !important;
-  max-width: var(--site-shell-max-final) !important;
-  margin-inline: auto !important;
-  padding-inline: 0 !important;
-  box-sizing: border-box !important;
-}
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .topbar-inner,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .footer-grid,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .footer-bottom,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .page-hero__inner,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) main{
-  padding-inline: var(--site-shell-gutter-final) !important;
-  box-sizing: border-box !important;
-}
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .section .card,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .page-card,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .form-card,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .quicklinks,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .club-wrap,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .club-card,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .club-highlight,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .policy-summary,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .policy-grid,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .price-grid,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .price-tool,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .price-tool .wrap,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .premium-panel,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .qr-grid,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .info-grid,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .table-wrap,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .discount-card,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .discount-card-wide,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .discount-card-green,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .info-card,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .about-top-grid,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .right-stack,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .hero-snap-grid,
-body:not(.page-demo):not(.page-demo-prep-2):not(.page-demo-3-6):not(.page-demo-7-10):not(.page-demo-11-12) .triple-grid{
-  width: 100% !important;
-  max-width: none !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  box-sizing: border-box !important;
-}
-body.page-about .anchor-target > .card,
-body.page-vi.page-about .anchor-target > .card{
-  width: 100% !important;
-  max-width: none !important;
-}
-body.page-vi #maths-club-fee .club-grid{
-  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-}
-@media (max-width: 980px){
-  body.page-vi #maths-club-fee .club-grid{
-    grid-template-columns: 1fr !important;
-  }
-}
-
 
 /* === 2026-03-21 topbar/footer/contact/mathclub cleanup patch === */
 .premium-topbar .brand-title span{display:none !important;}
@@ -8937,24 +8860,7 @@ details.acc,
 
 /* Use the same visual shell idea as demo pages:
    break the normal page containers out to the full viewport width. */
-body:not(.page-demo):not([class*="page-demo-"]) .topbar .container,
-body:not(.page-demo):not([class*="page-demo-"]) .footer .container,
-body:not(.page-demo):not([class*="page-demo-"]) .footer-inline .container,
-body:not(.page-demo):not([class*="page-demo-"]) .hero .container,
-body:not(.page-demo):not([class*="page-demo-"]) .page-hero .container,
-body:not(.page-demo):not([class*="page-demo-"]) main > .container,
-body:not(.page-demo):not([class*="page-demo-"]) section > .container{
-  width: 100vw !important;
-  max-width: 100vw !important;
-  position: relative !important;
-  left: 50% !important;
-  right: 50% !important;
-  margin-left: -50vw !important;
-  margin-right: -50vw !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  box-sizing: border-box !important;
-}
+
 
 /* Keep content blocks full width inside the shell */
 body:not(.page-demo):not([class*="page-demo-"]) .hero-snap,
@@ -9015,16 +8921,6 @@ body:not(.page-demo):not([class*="page-demo-"]) .program-feature-hero{
 
 
 
-/* === 2026-03-29 safe same-width shell for demo and non-demo pages === */
-:root{
-  --site-unified-shell-pad: 16px !important;
-}
-
-html, body{
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-}
 
 /* Give every page the same shell width model */
 .wrap,
@@ -9115,7 +9011,7 @@ body[class*="page-demo"] .card{
 
 
 
-/* === 2026-03-29 final same-width override with matched specificity === */
+
 /* This explicitly cancels the older non-demo breakout/narrow-shell rules
    using the same or higher selector specificity. */
 html, body{
@@ -9206,6 +9102,96 @@ body:not(.page-demo):not([class*="page-demo-"]) .price-tool .wrap{
 @media (max-width: 700px){
   :root{
     --final-shell-pad: 12px;
+  }
+}
+
+
+
+/* === 2026-03-29 clean full-width shell after removing breakout rule === */
+:root{
+  --site-clean-shell-pad: 16px;
+}
+
+html, body{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+
+/* Same width model for demo and non-demo pages, without sideways offset */
+.container,
+.topbar .container,
+.footer .container,
+.footer-inline .container,
+.hero .container,
+.page-hero .container,
+main > .container,
+main .container,
+section > .container,
+section .container{
+  width: 100% !important;
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-inline: 0 !important;
+  padding-left: var(--site-clean-shell-pad) !important;
+  padding-right: var(--site-clean-shell-pad) !important;
+  box-sizing: border-box !important;
+  position: static !important;
+  left: auto !important;
+  right: auto !important;
+  transform: none !important;
+}
+
+/* Make content blocks expand with the same shell */
+.hero-snap,
+.hero-snap-grid,
+.hero-snap-full,
+.quicklinks,
+details.acc,
+details.programs-wrap,
+.club-wrap,
+.club-shell,
+.club-card,
+.club-highlight,
+.page-card,
+.form-card,
+.policy-summary,
+.policy-grid,
+.price-grid,
+.price-tool,
+.premium-panel,
+.diff-wrap,
+.why-grid,
+.two-grid,
+.grid,
+.mini-grid,
+.qr-grid,
+.program-feature-hero,
+.program-feature-grid,
+.home-demo-showcase{
+  width: 100% !important;
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Remove inner caps that made non-demo pages appear narrower */
+.hero-snap-desc,
+.hero-snap-desc-left,
+.hero-snap-copy,
+.program-feature-hero__copy,
+.program-feature-card,
+.one2one-card,
+.price-tool .wrap{
+  width: 100% !important;
+  max-width: none !important;
+}
+
+@media (max-width: 700px){
+  :root{
+    --site-clean-shell-pad: 12px;
   }
 }
 
